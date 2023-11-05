@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Project in Computer Programming 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/lg.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="ai.html">AI HELP</a></li>
+                    <li><a href="web.html">WEB</a></li>
+                    <li><a href="Pro.html">PRO</a></li>
+                    <li><a href="cwu.html">Connect With Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars onclick="showMenu()></i>
+        </nav>
+        
+ <div class="text-box">
+     <h1>The FTR.</h1>
+     <p>This is where the Future begins.</p>
+     <a href="" class="hero-btn">Visit Us To Know More.</a>
+ </div>
+   
+    </section>
+    
+
+
+<!--Pro-->
+
+  <section class="Pro">
+       <h1>Pro Subscription</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            
+       <div class="row">
+           <div class="pro-col">
+               <img src="images/cote.jpg">
+               <div>
+                   <p>I bought the pro subsription and guess what? I am now burger deprived!</p>
+                   <h3>Mr. Burgy</h3>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+           </div>
+           <div class="pro-col">
+               <img src="images/eepy.jpg">
+               <div>
+                   <p>Ever since i bought the pro subscription of ftr, i am now productive and not eepy anymore! yay!</p>
+                   <h3>Mr. Eepyhead</h3>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+           </div>
+       </div>
+       
+   </section>
+   
+<!--About us-->
+   <section class="footer">
+       <h4>Let's get in touch!</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+       <div class="icons">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-instagram"></i> 
+           <i class="fa fa-twitter"></i>
+       </div>
+       <p>Made by Elle B. Paune  <i class="fa fa-heart-o"></i> </p>  
+   </section>
+    
+    
+<!--java for toggle-->
+<script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";  
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";  
+        }
+    
+</script>
+
+</body>
+</html>
